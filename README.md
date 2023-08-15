@@ -1,2 +1,2 @@
 # .eState-website
-A website based on real-estate.
+A  responsive website based on real-estate business.
