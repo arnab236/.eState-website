@@ -13,6 +13,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .section_container {
@@ -136,6 +137,10 @@ nav {
   font-size: 3.75rem;
   font-weight: 700;
   color: var(--text-dark);
+}
+
+.header_content h1 span{
+  color: var(--new-color);
 }
 
 .header_content p {
@@ -556,6 +561,7 @@ textarea {
   display: grid;
   grid-template-columns: 2fr repeat(3, 1fr);
   gap: 2rem;
+  background-color: #f1ffff;
 }
 
 .footer_col h3 {
